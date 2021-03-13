@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8">
+ <meta name="keyword" content="Kazuki,Koga,Kazuki Koga,古賀, 一樹,古賀一樹,絵画,油絵,画家,作家,美術,malen,Maler,Kunst,Leipzig,paint,painting,painter">
+ <meta name="description" content="This is Kazuki Koga's website. 古賀一樹のホームページです。">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+ <title>Kazuki Koga's Website - Works 2014</title>
+ <link href="../css-works.css" rel="stylesheet" type="text/css">
+ <link href="../../m-icons.css" rel="stylesheet" type="text/css">
+ <link href="../../scrollbar.css" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<header id="global-head">
+    <h1><a href="../../index.html">Kazuki Koga</a></h1>
+</header>
+
+<div id="nav-toggle">
+    <div>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+
+<aside id="sidebar">
+    <nav id="global-nav">
+      <ul>
+        <li><a href="../2020/index.html">2020</a></li>
+        <li><a href="../2019/index.html">2019</a></li>
+        <li><a href="../2018/index.html">2018</a></li>
+        <li><a href="../2017/index.html">2017</a></li>
+        <li><a href="../2016/index.html">2016</a></li>
+        <li><a href="../2015/index.html">2015</a></li>
+        <li><a href="#">2014</a></li>
+        <li><a href="../2013/index.html">2013</a></li>
+        <li><a href="../2012/index.html">2012</a></li>
+        <li><a href="../2011/index.html">2011</a></li>
+        <li><a href="../../index.html">Back</a></li>
+      </ul>
+    </nav>
+</aside>
+
+<main id="main">
+	<div id="main-in">
+		<div id="main-visual">
+      <h3>Works 2014</h3>
+		</div>
+
+		  <section class="inner">
+        <ul>
+         <a href="001.jpg" data-lightbox="abc" data-title="the girl/oil on canvas/1000*803mm">
+           <img src="s1.jpg" width="200px" height="200px" alt="the girl/oil on canvas/1000*803mm"></a>
+         <a href="002.jpg" data-lightbox="abc" data-title="the boy/oil on canvas/1000*803mm">
+           <img src="s2.jpg" width="200px" height="200px" alt="the boy/oil on canvas/1000*803mm"></a>
+         <a href="003.jpg" data-lightbox="abc" data-title="the pathway in front of the studio/oil on canvas/652*652mm">
+           <img src="s3.jpg" width="200px" height="200px" alt="the pathway in front of the studio/oil on canvas/652*652mm"></a>
+        </ul>
+        <div id="copyright">(C)2019-2021 Kazuki Koga</div>
+      </section>
+    </div><!-- /#main-in -->
+</main>
+
+<div id="overlay"></div>
+
+<script src="../../jquery-1.12.4.min.js"></script>
+<!-- Lightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+<!-- menu -->
+<script type="text/javascript">
+(function($) {
+    $(function () {
+        $('.sub-menu').on({
+            'mouseenter': function () {
+                $(this).addClass('is-active');
+            },
+            'mouseleave': function () {
+                $(this).removeClass('is-active');
+            }
+        });
+        $('#nav-toggle,#overlay').on('click', function() {
+            $('body').toggleClass('open');
+        });
+    });
+})(jQuery);
+</script>
+
+
+
+</body>
+</html>
