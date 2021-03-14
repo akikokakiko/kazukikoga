@@ -1,5 +1,5 @@
 # Kazuki Koga's website
-I made <a href = "https://kogakazuki.com">this web site</a> of a painter, Kazuki Koga, and I'm managing this.
+I made <a href = "https://kogakazuki.com">this website</a> of a painter, Kazuki Koga, and I'm managing this.
 
 
 # Features
